@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Mitr';
+    src: url(./assets/Mitr/Mitr-Medium.ttf);
+}
+*{
+    font-family: "Mitr", sans-serif;
+}
+.full-screen{
+    height: 100dvh;
+}
+.bg{
+    background-image: url("https://researchcafe.tsri.or.th/wp-content/uploads/2020/03/4-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg2{
+    background-image: url("https://2seewhales.com/wp-content/uploads/2019/03/dolphin-906176_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3/4;
+}
